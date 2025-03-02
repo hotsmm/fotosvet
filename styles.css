@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
 body {
 	background: url('images/bg-photo.jpg');
@@ -30,6 +31,48 @@ body {
 	display: none;
 }
 
+h1 {
+	font-family: "El Messiri", serif;
+	font-size: 160px;
+	font-weight: bold;
+	margin-left: 580px;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 64px;
+	font-weight: bold;
+	margin-left: 580px;	
+}
+
+.btn {
+	background-color: #EEDDFF;
+	color: #4C2E05;
+	font-family: "El Messiri", serif;
+	font-size: 25px;
+	font-weight: 600;
+	width: 180px;
+	margin-left: 580px;	
+	margin-top: 50px;
+}
+
+@media screen and (max-width:1380px) {
+	h1{
+		margin-left: 80px;
+		font-size: 140px;
+	}
+
+	h2 {
+		margin-left: 80px;	
+		font-size: 40px;
+	}
+
+	.btn {
+		margin-left: 80px;	
+	}	
+
+}	
+
 @media screen and (max-width:1024px) {
 	.navbar-brand {
 		width: 100px;
@@ -42,6 +85,22 @@ body {
 	.icon-header {
 		width: 20px;
 	}
+
+	h1 {
+		margin-left: 50px;
+		font-size: 120px;
+	}
+
+	h2 {
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+	.btn {
+		margin-left: 50px;	
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}	
 }
 
 @media screen and (max-width:768px) {
@@ -56,4 +115,44 @@ body {
 	.working-tel {
 		display: block;
 	}
+
+	h1 {
+		margin-left: 0px;
+		font-size: 90px;
+	}
+
+	h2 {
+		font-size: 34px;
+		margin-left: 0px;
+	}
+
+	.btn {
+		margin-left: 0px;	
+		margin-top: 30px;
+		font-size: 18px;
+		width: 150px
+	}	
 }	
+
+@media screen and (max-width:768px) {
+	h1 {
+		margin-left: 0px;
+		font-size: 65px;
+		margin-left: 5px;
+		margin-top: 26px;
+	}
+
+	h2 {
+		font-size: 28px;
+		margin-left: 5px;
+		font-size: 30px;
+	}
+
+	.btn {
+		margin-left: 5px;	
+		margin-top: 26px;
+		font-size: 14px;
+		width: 130px
+	}	
+}
+
