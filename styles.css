@@ -237,11 +237,7 @@ footer p {
 	.footer-location {
 		margin: 0 auto!important;
 	}
-}	
-
-@media screen and (max-width:485px) {
-
-}	
+}		
 
 @media screen and (max-width:425px) {
 	h1 {
