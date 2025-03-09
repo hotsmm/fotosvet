@@ -236,6 +236,10 @@ footer p {
 	.footer-contacts {
 		display: grid;
 	}
+
+	.footer-location {
+		margin: 0 auto!important;
+	}
 }	
 
 @media screen and (max-width:425px) {
@@ -271,10 +275,6 @@ footer p {
 	.container-brown {
 		width: 310px;
 		margin: 0 auto; 
-	}
-
-	.footer-location {
-		margin: 0 auto!important;
 	}
 }
 
