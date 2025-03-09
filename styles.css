@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
 
-body {
+header {
 	background: url('images/bg-photo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -39,7 +39,7 @@ h1 {
 	margin-top: 40px;
 }
 
-h2 {
+.home {
 	font-size: 64px;
 	font-weight: bold;
 	margin-left: 580px;	
@@ -54,6 +54,73 @@ h2 {
 	width: 180px;
 	margin-left: 580px;	
 	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+main {
+	background-color: rgb(238, 221, 255, .5);
+}
+
+.h2 {
+	font-family: "El Messiri", serif;
+	font-size: 62px;
+	color: #2F1D03;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 70px;
+}
+
+p {
+	color: #2F1D03;
+	font-size: 26px;
+	text-align: justify;
+	font-weight: 500;
+}
+
+.container-brown {
+	display: inline-flex;
+	margin: 0 auto; 
+}
+
+.container-brown p {
+	text-align: left;
+	font-weight: bold;
+}
+
+.icon-camera-brown {
+	width: 50px;
+	margin-right: 20px;
+}
+
+footer {
+	background-color: #2F1D03;
+}
+
+.footer-brand {
+	width: 100px;
+	height: 100px;
+}
+
+footer p {
+	color: #EEDDFF;
+}
+
+.footer-title {
+	font-family: "El Messiri", serif;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.footer-subtitle {
+	font-size: 16px;
+}
+
+.footer-contacts {
+	display: inline-flex;
+}
+
+.footer-location {
+	display: inline-flex;
 }
 
 @media screen and (max-width:1380px) {
@@ -62,13 +129,14 @@ h2 {
 		font-size: 140px;
 	}
 
-	h2 {
+	.home {
 		margin-left: 80px;	
 		font-size: 40px;
 	}
 
 	.btn {
 		margin-left: 80px;	
+		margin-bottom: 60px;
 	}	
 
 }	
@@ -91,7 +159,7 @@ h2 {
 		font-size: 120px;
 	}
 
-	h2 {
+	.home {
 		font-size: 36px;
 		margin-left: 50px;
 	}
@@ -101,6 +169,15 @@ h2 {
 		margin-top: 30px;
 		margin-bottom: 40px;
 	}	
+
+	.h2 {
+		font-size: 60px;
+		margin-top: 60px;
+	}
+
+	p {
+		font-size: 24px;
+	}
 }
 
 @media screen and (max-width:768px) {
@@ -121,7 +198,7 @@ h2 {
 		font-size: 90px;
 	}
 
-	h2 {
+	.home {
 		font-size: 34px;
 		margin-left: 0px;
 	}
@@ -132,9 +209,36 @@ h2 {
 		font-size: 18px;
 		width: 150px
 	}	
+
+	.h2 {
+		font-size: 48px;
+		margin-top: 40px;
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.container-brown {
+		display: inline-flex;
+		margin: 0 auto; 
+		width: 350px;
+	}
+
+	.footer-brand {
+		width: 80px;
+		height: 80px;
+	}
+
 }	
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:485px) {
+	.footer-contacts {
+		display: grid;
+	}
+}	
+
+@media screen and (max-width:425px) {
 	h1 {
 		margin-left: 0px;
 		font-size: 65px;
@@ -142,7 +246,7 @@ h2 {
 		margin-top: 26px;
 	}
 
-	h2 {
+	.home {
 		font-size: 28px;
 		margin-left: 5px;
 		font-size: 30px;
@@ -154,5 +258,23 @@ h2 {
 		font-size: 14px;
 		width: 130px
 	}	
+
+	.h2 {
+		font-size: 40px;
+		margin-top: 40px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	.container-brown {
+		width: 310px;
+		margin: 0 auto; 
+	}
+
+	.footer-location {
+		margin: 0 auto!important;
+	}
 }
 
