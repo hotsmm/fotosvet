@@ -31,16 +31,24 @@ header {
 	display: none;
 }
 
+.contact-link {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Roboto", serif;
+	color: #EEDDFF;
+}
+
 h1 {
 	font-family: "El Messiri", serif;
-	font-size: 160px;
+	font-size: 140px;
 	font-weight: bold;
 	margin-left: 580px;
 	margin-top: 40px;
 }
 
 .home {
-	font-size: 64px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-left: 580px;	
 }
@@ -63,7 +71,7 @@ main {
 
 .h2 {
 	font-family: "El Messiri", serif;
-	font-size: 62px;
+	font-size: 50px;
 	color: #2F1D03;
 	text-align: center;
 	font-weight: bold;
@@ -126,7 +134,7 @@ footer p {
 @media screen and (max-width:1380px) {
 	h1{
 		margin-left: 80px;
-		font-size: 140px;
+		font-size: 120px;
 	}
 
 	.home {
@@ -150,17 +158,21 @@ footer p {
 		font-size: 14px;
 	}
 
+	.contact-link {
+		font-size: 14px;
+	}
+
 	.icon-header {
 		width: 20px;
 	}
 
 	h1 {
 		margin-left: 50px;
-		font-size: 120px;
+		font-size: 100px;
 	}
 
 	.home {
-		font-size: 36px;
+		font-size: 34px;
 		margin-left: 50px;
 	}
 
@@ -171,7 +183,7 @@ footer p {
 	}	
 
 	.h2 {
-		font-size: 60px;
+		font-size: 40px;
 		margin-top: 60px;
 	}
 
@@ -195,11 +207,11 @@ footer p {
 
 	h1 {
 		margin-left: 0px;
-		font-size: 90px;
+		font-size: 80px;
 	}
 
 	.home {
-		font-size: 34px;
+		font-size: 30px;
 		margin-left: 0px;
 	}
 
@@ -211,7 +223,7 @@ footer p {
 	}	
 
 	.h2 {
-		font-size: 48px;
+		font-size: 36px;
 		margin-top: 40px;
 	}
 
@@ -237,18 +249,22 @@ footer p {
 	.footer-location {
 		margin: 0 auto!important;
 	}
-}		
+}	
+
+@media screen and (max-width:485px) {
+
+}	
 
 @media screen and (max-width:425px) {
 	h1 {
 		margin-left: 0px;
-		font-size: 65px;
+		font-size: 60px;
 		margin-left: 5px;
 		margin-top: 26px;
 	}
 
 	.home {
-		font-size: 28px;
+		font-size: 26px;
 		margin-left: 5px;
 		font-size: 30px;
 	}
@@ -261,7 +277,7 @@ footer p {
 	}	
 
 	.h2 {
-		font-size: 40px;
+		font-size: 34px;
 		margin-top: 40px;
 	}
 
@@ -274,4 +290,3 @@ footer p {
 		margin: 0 auto; 
 	}
 }
-
