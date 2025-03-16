@@ -103,7 +103,7 @@ p {
 }
 
 .container-brown {
-	display: inline-flex;
+	display: flex;
 	margin: 0 auto; 
 }
 
@@ -266,7 +266,7 @@ footer p {
 	.footer-location {
 		margin: 0 auto!important;
 	}
-}	
+}		
 
 @media screen and (max-width:425px) {
 	h1 {
