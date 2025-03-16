@@ -85,6 +85,23 @@ p {
 	font-weight: 500;
 }
 
+.container-slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 100%;
+  -webkit-overflow-scrolling: touch; /* для плавной прокрутки на мобильных устройствах */
+  scrollbar-color: #2F1D03 transparent;
+}
+
+.slide {
+  /*flex: none;*/
+  scroll-snap-align: start;
+  width: 100%;
+  text-align: center;
+  padding-right: 10px;
+}
+
 .container-brown {
 	display: inline-flex;
 	margin: 0 auto; 
@@ -249,10 +266,6 @@ footer p {
 	.footer-location {
 		margin: 0 auto!important;
 	}
-}	
-
-@media screen and (max-width:485px) {
-
 }	
 
 @media screen and (max-width:425px) {
